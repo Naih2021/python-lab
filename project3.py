@@ -1,10 +1,17 @@
-username = input("Enter your username: ")
-password = input("Enter your password: ")
-if username == 'admin'and password == 'admin':  
-        print("Successfully logged in")
+"""username = input("username: ")
+password = input("password: ")
+
+if username == "admin" and password == "admin":
+ print("successfully login")
 else:
-        print("Wrong username or password")
-
-
+ print("wrong username or password")"""
+ 
+try: 
+    int1 = int(input("Enter integer 1: "))
+    int2 = int(input("Enter integer 2: "))
+    sum = int1 + int2
+    print(sum)
+except ValueError:
+    print("please enter a valid integer")
 
 
